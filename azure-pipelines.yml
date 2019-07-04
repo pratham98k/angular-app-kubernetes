@@ -2,7 +2,7 @@
 - task: CopyFiles@2
   inputs:
     Contents: 'deployment.azure.yaml'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    TargetFolder: 'Linked artifacts/_pratham98k.angular-app-kubernetes'
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
